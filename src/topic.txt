@@ -1,0 +1,286 @@
+problem1	"按数值个数排序
+Description
+Given an array of integers, sort the array according to frequency of elements. 
+For example, if the input array is {2, 3, 2, 4, 5, 12, 2, 3, 3, 3, 12}, then modify 
+the array to {3, 3, 3, 3, 2, 2, 2, 12, 12, 4, 5}. If frequencies of two elements are 
+same, print them in increasing order."
+problem2	"最小交换次数
+Description
+
+Given an array of N distinct elementsA[ ], find the minimum number of swaps required to sort the array.Your are required to complete the function which returns an integer denoting the minimum number of swaps, required to sort the array.
+"
+problem3	" 倒置个数
+Description
+有一个由N个实数构成的数组，如果一对元素A[i]和A[j]是倒序的，即i<j但是A[i]>A[j]则称它们是一个倒置，
+设计一个计算该数组中所有倒置数量的算法。要求算法复杂度为O(nlogn)"
+problem4	"相对排序
+Description
+
+Given two array A1[] and A2[], sort A1 in such a way that the relative order among 
+the elements will be same as those in A2. For the elements not present in A2. Append 
+them at last in sorted order. It is also given that the number of elements in A2[] are 
+smaller than or equal to number of elements in A1[] and A2[] has all distinct elements.
+
+Input:A1[] = {2, 1, 2, 5, 7, 1, 9, 3, 6, 8, 8} A2[] = {2, 1, 8, 3} Output: 
+A1[] = {2, 2, 1, 1, 8, 8, 3, 5, 6, 7, 9}"
+problem5	"子数组的取值范围     
+给定数组arr和整数num，求arr的连续子数组中满足：其最大值减去最小值的结果大于num的个数。请实现一个时间复杂度为O(length(arr))的算法。"
+problem6	子矩阵问题     给定一个矩形区域，每一个位置上都是1或0，求该矩阵中每一个位置上都是1的最大子矩形区域中的1的个数。
+problem7	"数组和窗口 
+ 给定一个整型数组arr和一个大小为w的窗口，窗口从数组最左边滑动到最右边，每次向右滑动一个位置，求出每一次滑动时窗口内最大元素的和。"
+problem8	汉诺塔问题中限制不能将一层塔直接从最左侧移动到最右侧，也不能直接从最右侧移动到最左侧，而是必须经过中间。求当有N层塔的时候移动步数。
+problem9	找到给定数组的给定区间内的第K小的数值。
+problem10	"固定和的元素对
+Description
+输入一个数组和一个数字，在数组中查找两个数，使得它们的和正好是输入的那个数字，统计这样两个数的对数。"
+problem11	"先升后降
+Description
+从一列不重复的数中筛除尽可能少的数使得从左往右看，这些数是从小到大再从大到小的。"
+problem12	"调整数组使差最小
+Description
+有两个序列 a,b，大小都为 n,序列元素的值任意整数，无序； 要求：通过交换 a,b 中的元素，使[序列 a 元素的和]与[序列 b 元素的和]之间的差最小。"
+SecondHome1	"最长公共子序列
+Description
+给定两个字符串，返回两个字符串的最长公共子序列（不是最长公共子字符串），可能是多个。"
+SecondHome2	"链表回文
+Description
+判断一个单向链表是否为回文结构。自定义链表数据结构，要求时间复杂度为O(n)，额外空间复杂度为O(1)。"
+SecondHome3	"链表区间逆序
+Description
+将单个链表的每K个节点之间逆序，打印出新链表；最后不足K的节点数不需要逆序；要求时间复杂度为O(n)，额外空间复杂度为O(1)。"
+SecondTest1	Implement pow(A, B) % C.In other words, given A, B and C, find (A^B)%C
+SecondTest2	"凸包算法 
+ Description
+Convex Hull of a set of points, in 2D plane, is a convex polygon with minimum area such that each point lies either on the boundary of polygon or inside it. Now given a set of points the task is to find the convex hull of points.
+"
+SecondTest3	"Dilpreet wants to paint his dog- Buzo's home that has n boards with different lengths[A1, A2,..., An]. He hired k painters for this work and each painter takes 1 unit time to paint 1 unit of the board.The problem is to find the minimum time to get this job done under the constraints that any painter will only paint continuous sections of boards, say board {2, 3, 4} or only board {1} or nothing but not board {2, 4, 5}.
+Constraints:1<=T<=100,1<=k<=30,1<=n<=50,1<=A[i]<=500"
+SecondTest4	有9个因数的数     Find the count of numbers less than N having exactly 9 divisors
+ThirdTest1	"对称子字符串
+Description
+
+Given a string ‘str’ of digits, find length of the longest substring of ‘str’, 
+such that the length of the substring is 2k digits and sum of left k digits is 
+equal to the sum of right k digits."
+ThirdTest2	"整除查询
+Description
+
+Given an array of positive integers and many queries for divisibility. 
+In every query Q[i], we are given an integer K , we need to count all 
+elements in the array which are perfectly divisible by K.
+
+Constraints:1<=T<=1001<=N,M<=1051<=A[i],Q[i]<=105"
+ThirdTest3	"无限递归字符串查询
+Description
+
+Consider a string A = ""12345"". An infinite string s is built by performing infinite 
+steps on A recursively. In i-th step, A is concatenated with ‘$’ i times followed by 
+reverse of A. A=A|$...$|reverse(A), where | denotes concatenation."
+ThirdTest4	"字符串匹配问题
+Description
+
+Given a text txt[0..n-1] and a pattern pat[0..m-1], write a function search(char pat[], 
+char txt[]) that prints all occurrences of pat[] in txt[]. You may assume that n > m."
+ThirdTest5	"牛的繁殖问题
+Description
+
+Cows in the FooLand city are interesting animals. One of their specialties is related to 
+producing offsprings. A cow in FooLand produces its first calve (female calf) at the age 
+of two years and proceeds to produce other calves (one female calf a year)."
+FourthTest1	"数组查询
+Description
+
+Given an array, the task is to complete the function which finds the maximum sum subarray, where you may remove at most one element to get the maximum sum.
+"
+FourthTest2	"订单问题
+Description
+
+Rahul and Ankit are the only two waiters in Royal Restaurant. Today, the restaurant received N orders. 
+The amount of tips may differ when handled by different waiters, if Rahul takes the ith order, he would 
+be tipped Ai rupees and if Ankit takes this order, the tip would be Bi rupees.In order to maximize the 
+total tip value they decided to distribute the order among themselves. One order will be handled by one 
+person only. Also, due to time constraints Rahul cannot take more than X orders and Ankit cannot take 
+more than Y orders. It is guaranteed that X + Y is greater than or equal to N, which means that all the 
+orders can be handled by either Rahul or Ankit. Find out the maximum possible amount of total tip money 
+after processing all the orders."
+FourthTest3	" 按照要求保留数组元素使得和最大
+Description
+
+Given an array of N numbers, we need to maximize the sum of selected numbers. At each step, 
+you need to select a number Ai, delete one occurrence of Ai-1 (if exists) and Ai each from the 
+array. Repeat these steps until the array gets empty. The problem is to maximize the sum of selected numbers.
+"
+FourthTest4	" 如何花最少的钱购买蔬菜
+Description
+
+Rahul wanted to purchase vegetables mainly brinjal, carrot and tomato. There are N different vegetable 
+sellers in a line. Each vegetable seller sells all three vegetable items, but at different prices. Rahul, 
+obsessed by his nature to spend optimally, decided not to purchase same vegetable from adjacent shops. 
+Also, Rahul will purchase exactly one type of vegetable item (only 1 kg) from one shop. Rahul wishes to 
+spend minimum money buying vegetables using this strategy. Help Rahul determine the minimum money he will spend.
+"
+P1	"Searching_4
+Description
+
+Given n Magnets which are placed linearly, with each magnet to be considered as of point object. 
+Each magnet suffers force from its left sided magnets such that they repel it to the right and vice 
+versa. All forces are repulsive. The force being equal to the distance (1/d , d being the distance). 
+Now given the positions of the magnets, the task to find all the points along the linear line where 
+net force is ZERO."
+P2	"分治法解最近对问题
+Description
+
+最近对问题：使用分治算法解决最近对问题。"
+P3	"和最大的连续降序字符
+Description
+
+Archana is very fond of strings. She likes to solve many questions related to strings. She comes across a problem which she is unable to solve. Help her to solve. The problem is as follows: Given is a string of length L. Her task is to find the longest string from the given string with characters arranged in descending order of their ASCII code and in arithmetic progression. She wants the common difference should be as low as possible(at least 1) and the characters of the string to be of higher ASCII value."
+P4	"矩阵计算
+Description
+
+Let's define a Series Whose recurrence formula is as follows :
+
+C(n)= 3C(i-1) + 4C(i-2) + 5C(i-3) + 6C(i-4)
+
+C(0)= 2
+
+C(1)= 0
+
+C(2)= 1
+
+C(3)= 7
+
+Now based on this Series a Matrix Mi,j of size nn is to be formed.The top left cell is(1,1) and the bottom right corner is (n,n). Each cell (i,j) of the Matrix contains either 1 or 0. If C( (i*j)^3 ) is odd, Mi,j is 1, otherwise, it's 0.Count the total number of ones in the Matrix."
+P5	"距离问题
+Description
+
+In a given cartesian plane, there are N points. We need to find the Number of Pairs of points(A,B) such that
+
+Point A and Point B do not coincide.
+Manhattan Distance and the Euclidean Distance between the points should be equal.
+Note : Pair of 2 points(A,B) is considered same as Pair of 2 points(B,A).
+
+Manhattan Distance = |x2-x1|+|y2-y1|
+
+Euclidean Distance = ((x2-x1)^2 + (y2-y1)^2)^0.5 where points are (x1,y1) and (x2,y2).
+
+Constraints:1<=T <= 50, 1<=N <= 2*10 ^ 5, 0<=(|Xi|, |Yi|) <= 10^9"
+P6	"能否成环
+Description
+
+Given an array of strings A[ ], determine if the strings can be chained together to form a circle. A string X can be chained together with another string Y if the last character of X is same as first character of Y. If every string of the array can be chained, it will form a circle. For example, for the array arr[] = {""for"", ""geek"", ""rig"", ""kaf""} the answer will be Yes as the given strings can be chained as ""for"", ""rig"", ""geek"" and ""kaf""."
+P7	"漆狗屋
+Description
+
+Dilpreet wants to paint his dog- Buzo's home that has n boards with different lengths[A1, A2,..., An]. He hired k painters for this work and each painter takes 1 unit time to paint 1 unit of the board.The problem is to find the minimum time to get this job done under the constraints that any painter will only paint continuous sections of boards, say board {2, 3, 4} or only board {1} or nothing but not board {2, 4, 5}.
+
+Constraints:1<=T<=100,1<=k<=30,1<=n<=50,1<=A[i]<=500"
+P8	"是否能通过考试
+Description
+
+小张想要通过明天的考试。他知道考题的分值分布，也知道考试中要拿到每一个题目需要耗费的时间。假设考试时长为h，共n个题目，需要拿到p分才能通过考试。现在已知每个考题的得分与耗时，请你判断小张能否通过合理安排时间，而通过考试，并给出通过考试的最短时间。"
+P9	"书本分发
+Description
+You are given N number of books. Every ith book has Pi number of pages. You have to allocate books to M number of students. There can be many ways or permutations to do so. In each permutation one of the M students will be allocated the maximum number of pages. Out of all these permutations, the task is to find that particular permutation in which the maximum number of pages allocated to a student is minimum of those in all the other permutations, and print this minimum value. Each book will be allocated to exactly one student. Each student has to be allocated atleast one book."
+PA	"数学公式
+Description
+
+Implement pow(A, B) % C.In other words, given A, B and C, find (A^B)%C"
+PA1	"数字重组整除问题
+Description
+
+Babul’s favourite number is 17. He likes the numbers which are divisible by 17. This time what he does is that he takes a number N and tries to find the largest number which is divisible by 17, by rearranging the digits. As the number increases he gets puzzled with his own task. So you as a programmer have to help him to accomplish his task.Note: If the number is not divisible by rearranging the digits, then print “Not Possible”. N may have leading zeros."
+PA2	"素数和问题
+Description
+
+Given an even number ( greater than 2 ), return two prime numbers whose sum will be equal to given number. There are several combinations possible. Print only first such pair.
+
+NOTE: A solution will always exist, read Goldbach’s conjecture.Also, solve the problem in linear time complexity, i.e., O(n)."
+PA3	"无重复字符子集问题
+Description
+
+Mike is a lawyer with the gift of photographic memory. He is so good with it that he can tell you all the numbers on a sheet of paper by having a look at it without any mistake. Mike is also brilliant with subsets so he thought of giving a challange based on his skill and knowledge to Rachael. Mike knows how many subset are possible in an array of N integers. The subsets may or may not have the different sum. The challenge is to find the maximum sum produced by any subset under the condition:
+
+The elements present in the subset should not have any digit in common.
+
+Note: Subset {12, 36, 45} does not have any digit in common and Subset {12, 22, 35} have digits in common.Rachael find it difficult to win the challenge and is asking your help. Can youhelp her out in winning this challenge?"
+PA4	"序号乘方
+Description
+
+There are Infinite People Standing in a row, indexed from 1.A person having index 'i' has strength of (i*i).You have Strength 'P'. You need to tell what is the maximum number of People You can Kill With your Strength P.You can only Kill a person with strength 'X' if P >= 'X' and after killing him, Your Strength decreases by 'X'."
+PA5	"最小化初始点
+Description
+
+Given a grid with each cell consisting of positive, negative or no points i.e, zero points. We can move across a cell only if we have positive points ( > 0 ). Whenever we pass through a cell, points in that cell are added to our overall points. We need to find minimum initial points to reach cell (m-1, n-1) from (0, 0) by following these certain set of rules :
+
+1.From a cell (i, j) we can move to (i+1, j) or (i, j+1).
+
+2.We cannot move from (i, j) if your overall points at (i, j) is <= 0.
+
+3.We have to reach at (n-1, m-1) with minimum positive points i.e., > 0."
+FifthTest1	" 管道网络
+Description
+
+Every house in the colony has at most one pipe going into it and at most one pipe going out of it. Tanks and taps are to be installed in a manner such that every house with one outgoing pipe but no incoming pipe gets a tank installed on its roof and every house with only an incoming pipe and no outgoing pipe gets a tap. Find the efficient way for the construction of the network of pipes.
+"
+FifthTest2	"时间分隔
+Description
+
+Given arrival and departure times of all trains that reach a railway station. Your task is to find the minimum number of platforms required for the railway station so that no train waits. 
+
+Note: Consider that all the trains arrive on the same day and leave on the same day. Also, arrival and departure times must not be same for a train.
+"
+FifthTest3	"时间与收益
+Description
+
+Given a set of n jobs where each job i has a deadline and profit associated to it. Each job takes 1 unit of time to complete and only one job can be scheduled at a time. We earn the profit if and only if the job is completed by its deadline. The task is to find the maximum profit and the number of jobs done.
+"
+FifthTest4	"硬币最小数量
+Description
+
+Given the list of coins of distinct denominations and total amount of money. Output the minimum number of coins required to make up that amount. Output -1 if that money cannot be made up using given coins. You may assume that there are infinite numbers of coins of each type.
+"
+FourthHome1	"分配问题
+Description
+
+对给定的n个任务与n个人之间的成本矩阵完成成本最低的任务分配策略。
+"
+FourthHome2	"KD树构造和查找
+Description
+
+对给定的点集合构造KD树，要求如下：将方差最大的维度作为当前的分割维度，将数据集在分割维度上排序后的中位数作为分割点。程序要检索给定点对应的最近的K个点的坐标。
+"
+FourthHome3	"实现Shell排序
+Description
+
+实现Shell排序，对给定的无序数组，按照给定的间隔变化（间隔大小即同组数字index的差），打印排序结果，注意不一定是最终排序结果！
+"
+FourthHome4	"棋盘覆盖问题
+Description
+
+棋盘覆盖问题：给定一个大小为2^n2^n个小方格的棋盘，其中有一个位置已经被填充，现在要用一个L型（22个小方格组成的大方格中去掉其中一个小方格）形状去覆盖剩下的小方格。求出覆盖方案，即哪些坐标下的小方格使用同一个L型格子覆盖。注意：坐标从0开始。左上方的第一个格子坐标为(0,0)，第一行第二个坐标为(0,1)，第二行第一个为(1,0)，以此类推。
+"
+FourthHome5	"深度优先遍历
+Description
+
+按照给定的起始顶点深度优先遍历给定的无向图，尝试所有可能的遍历方式，打印遍历过程中出现的最大深度。
+"
+FourthHome6	"广度优先遍历图
+Description
+
+按照给定的起始顶点广度优先遍历图，每一次通过字母顺序选择顶点查找下一层邻接点，打印遍历顺序。
+"
+FourthHome7	"拓扑排序解的个数
+Description
+
+给定有向无环图中所有边，计算图的拓扑排序解的个数。
+"
+FourthHome8	"按照数值个数排序
+Description
+
+对给定数组中的元素按照元素出现的次数排序，出现次数多的排在前面，如果出现次数相同，则按照数值大小排序。例如，给定数组为{2, 3, 2, 4, 5, 12, 2, 3, 3, 3, 12}，则排序后结果为{3, 3, 3, 3, 2, 2, 2, 12, 12, 4, 5}。
+"
+PA7 路上的球
+Description
+
+There are two parallel roads, each containing N and M buckets, respectively. Each bucket may contain some balls. The buckets on both roads are kept in such a way that they are sorted according to the number of balls in them. Geek starts from the end of the road which has the bucket with a lower number of balls(i.e. if buckets are sorted in increasing order, then geek will start from the left side of the road). The geek can change the road only at the point of intersection(which means, buckets with the same number of balls on two roads). Now you need to help Geek to collect the maximum number of balls.
